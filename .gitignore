@@ -1,0 +1,20 @@
+# Ambientes Virtuais
+venv/
+env/
+.venv/
+.env
+
+# Arquivos de Cache e Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Arquivos temporários e backups
+.tmp/
+amostras/
+backup/
+*backup*.xlsx
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db

@@ -32,12 +32,18 @@ atualizacao_rescaldo_software/
 ## 🛠️ Como usar
 
 ### 1. 📦 Preparação
-1. Certifique-se de ter o Python instalado.
-2. Crie o ambiente virtual e instale as dependências necessárias:
+1. Certifique-se de ter o [Python](https://www.python.org/downloads/) instalado (versão 3.13 ou superior recomendada).
+2. Clone o repositório e acesse o repositório do projeto:
+   ```bash
+   git clone https://github.com/hugopinaffo/automacao-rescaldo-software.git
+
+   cd automacao-rescaldo-software
+   ```
+3. Crie o ambiente virtual e instale as dependências necessárias:
    ```bash
    python -m venv .venv
    ```
-3. Ative o ambiente virtual:
+4. Ative o ambiente virtual:
    ```bash
    # Windows:
    .venv\Scripts\activate
@@ -45,17 +51,17 @@ atualizacao_rescaldo_software/
    # Linux/Mac:
    source .venv/bin/activate
    ```
-4. Instale as dependências necessárias:
+5. Instale as dependências necessárias:
       ```bash
    pip install -r requirements.txt
    ```
-5. Gere planilhas de exemplo:
+6. Gere planilhas de exemplo:
    ```bash
    python gerar_amostras.py
    ```
    *Isso criará uma pasta `amostras/` com um arquivo principal e uma lista de máquinas.*
 
-6. Configure o caminho da sua planilha principal no arquivo .env (baseie-se no .env.example):
+7. Configure o caminho da sua planilha principal no arquivo .env (baseie-se no .env.example):
    ```
    PLANILHA_PRINCIPAL_PATH="C:\caminho\para\planilha_principal.xlsx"
    ```

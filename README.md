@@ -12,6 +12,11 @@ Ferramenta desenvolvida para automatizar atualizações em planilhas de controle
 - 🛡️ **Backup Inteligente:** Cria cópias de segurança do arquivo principal antes de qualquer modificação, controlando o máximo de backups armazenados simultaneamente.
 - 📂 **Execução Baseada em Arquivos Externos:** Lê lista de hostnames a partir de um arquivo Excel e os aplica na planilha principal.
 
+## 📸 Demonstração
+Abaixo, um exemplo da execução do automação, utilizando a interface gráfico do customtkinter:
+
+![demo](demonstracao.jpg)
+
 ## 📂 Estrutura do Projeto
 ```text
 atualizacao_rescaldo_software/
